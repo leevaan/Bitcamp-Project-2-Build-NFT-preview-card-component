@@ -1,0 +1,135 @@
+body  {
+    display: flex;
+    flex-direction: column;
+    background-color: #0D192C;;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    position: relative;
+    background-color: #15263F;
+    height: auto;
+    width: 350px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px; 
+    overflow: hidden;
+    padding: 24px;
+    z-index: 0;
+}
+.view-icon{
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 302px;
+    height: 302px;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 247, 0.5);
+    mix-blend-mode: normal;
+  
+}
+.view-icon img{
+    position: absolute;
+ }
+.main-photo{
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 6%;
+}
+.for-hover:hover .view-icon{
+    display: flex;
+    cursor: pointer;
+}
+h2{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+h2:hover{
+    color: #00FFF8;
+
+}
+.mine-txt{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.eth-box{
+    display: flex;
+    align-items: center;
+   }
+.eth-txt{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    
+    display: inline;
+    color: #00FFF8;
+    margin-left: 10px;
+}
+.clock-box{
+    display: flex;
+    align-items: center;
+}
+.clock-txt{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #8BACD9;
+    margin-left: 10px;
+}
+.eth-clock-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+}
+hr{
+    height: 1px;
+    background-color: #2E405A;
+    margin-bottom: 16px;
+    border: none;
+}
+.footer-txt{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #8BACD9;
+    margin-left: 16px;
+    
+}
+.footer-txt a{
+    color: white;
+}
+.footer-txt a:hover{
+    color:  #00FFF8;
+}
+.footer img{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
